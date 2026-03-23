@@ -18,7 +18,7 @@
 #   None (Pure Python implementation)
 #
 # License:
-#   MIT License (see LICENSE file for details)
+#   GNU General Public License v3.0 (see LICENSE file for details)
 
 from random import randrange
 import sys

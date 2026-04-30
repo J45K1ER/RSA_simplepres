@@ -17,9 +17,9 @@ def prepare_string_for_encryption(s):
 
     # 2. if necessary add 0 at the beginning to get the right length
     if len(sentence_ID)%3==1:
-        sentence_ID="00"+sentence_ID #wstawienie 0 na poczatku by uzyskac dobra dlugosc - podzial na 3 bedzie pozniej
+        sentence_ID="00"+sentence_ID
     if len(sentence_ID)%3==2:
-        sentence_ID="0"+sentence_ID #wstawienie 0 na poczatku by uzyskac dobra dlugosc - podzial na 3 bedzie pozniej
+        sentence_ID="0"+sentence_ID
 
     # 3. split numeric value to frames of max 3 digits
     sentence_ID=([sentence_ID[i:i+3] for i in range(0, len(sentence_ID), 3)])

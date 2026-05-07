@@ -90,7 +90,6 @@ while True:
     else:
        break
 
-#obliczenie n
 #Step 2: Compute modulus N - it defines the working ring Zn
 N=p*q
 #Step 3: Compute Euler’s Totient Function - it determines the size of the multiplicative group Zn* (phi(n))

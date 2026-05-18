@@ -86,7 +86,7 @@ while True:
     if p==q:
         print("\nNumbers p i q cannot be equal.")
     elif p*q<1000:
-        print("\nNumbers p i q are to small (p*q>999)")
+        print("\nNumbers p i q are too small (p*q>999)")
     else:
        break
 

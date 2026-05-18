@@ -84,9 +84,9 @@ while True:
     p = int(p)
     q = int(q)
     if p==q:
-        print("\nLiczby p i q nie mogą być takie same. Proszę podać różne liczby.")
+        print("\nNumbers p i q cannot be equal.")
     elif p*q<1000:
-        print("\nLiczby p i q są zbyt małe. Proszę podać większe liczby. (p*q>999)")
+        print("\nNumbers p i q are to small (p*q>999)")
     else:
        break
 
